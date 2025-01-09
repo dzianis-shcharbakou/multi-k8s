@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: cygnetops/multi-server-pgfix-5-11
+        image: whitechapel5991/multi-server-k8s-pgfix-gh
         resources:
           limits:
             memory: "128Mi"
