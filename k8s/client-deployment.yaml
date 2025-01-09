@@ -15,9 +15,5 @@ spec:
       containers:
       - name: client
         image: whitechapel5991/multi-client-k8s-gh
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
         ports:
         - containerPort: 3000
